@@ -1,6 +1,6 @@
 import 'package:electromarket/models/cart.dart';
 import 'package:electromarket/models/shoe.dart';
-import 'package:electromarket/pages/shoe_tile.dart';
+import 'package:electromarket/components/shoe_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -95,7 +95,7 @@ class _ShopPageState extends State<ShopPage> {
           //list of shoes for sale
           Expanded(
               child: ListView.builder(
-                  itemCount: 4,
+                  itemCount: value.getShoeList().length,
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context, index) {
                     //get a shoe from shop list

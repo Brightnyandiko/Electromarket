@@ -2,6 +2,7 @@ import 'package:electromarket/models/cart.dart';
 import 'package:electromarket/models/shoe.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:electromarket/components/cart_item.dart';
 
 
 class CartPage extends StatefulWidget {
@@ -18,6 +19,7 @@ class _CartPageState extends State<CartPage> {
       builder: (context, value, child) => Padding(
         padding: const EdgeInsets.symmetric(horizontal: 25.0),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             //heading
             const Text(
@@ -28,7 +30,7 @@ class _CartPageState extends State<CartPage> {
                 ),
             ),
 
-            const SizedBox(height: 10),
+            const SizedBox(height: 20),
 
             Expanded(
                 child: ListView.builder(
@@ -38,7 +40,7 @@ class _CartPageState extends State<CartPage> {
                       Shoe individualShoe = value.getUserCart()[index];
 
                       //return the cart item
-                      return CartItem();
+                      return CartItem(shoe: individualShoe);
                     }
                 )
             ),
