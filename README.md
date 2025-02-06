@@ -1,23 +1,36 @@
-# electromarket
+# Electromarket
 
-This is a minimal shoe shop.
+This is a minimalist shoe shop.
 
 ## Getting Started
 
-This project implements CRUD to create, read update and delete items. It has a home page where users can see a range of products that they can choose to buy from.
-it has a cart where the user can see the products added to the cart. Also, the user can delete the products chosen from the cart. 
+This project implements CRUD functionality to create, read, update, and delete items. It features a home page where users can browse a range of available products. There is a cart that allows the user to view the products they have added. Additionally, the user can remove selected products from the cart.
 
 ## Screenshots
 
-![electromart-landing-page](https://github.com/user-attachments/assets/a1c12fe5-33cb-4416-96c1-47b80f896e1b)
+## Screenshots
 
-![electromart-homepage](https://github.com/user-attachments/assets/d4c958bf-2b4f-4bda-9bcb-6ba6cc8f9e04)
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/a1c12fe5-33cb-4416-96c1-47b80f896e1b" width="400">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/d4c958bf-2b4f-4bda-9bcb-6ba6cc8f9e04" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/9cf09a64-f3e7-45b4-be15-f2f462a40516" width="400">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/85f0d5c9-11e6-4e91-bef9-90370fda4c23" width="400">
+    </td>
+  </tr>
+</table>
 
-![electromart-dialogbox](https://github.com/user-attachments/assets/9cf09a64-f3e7-45b4-be15-f2f462a40516)
 
-![electromart-cart-page](https://github.com/user-attachments/assets/85f0d5c9-11e6-4e91-bef9-90370fda4c23)
-
-## Video Recording of the app Functionality.
+## Video Recording of the App Functionality.
 
 
 
