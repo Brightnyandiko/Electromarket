@@ -32,11 +32,7 @@ This project implements CRUD functionality to create, read, update, and delete i
 
 ## Video Recording of the App Functionality.
 
-
-
 https://github.com/user-attachments/assets/fb407936-8681-41d4-85bc-49595226891a
-
-
 
 Here are a few resources to get you started if this is your first Flutter project:
 
