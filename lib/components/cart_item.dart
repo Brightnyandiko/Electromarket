@@ -38,7 +38,8 @@ class _CartItemState extends State<CartItem> {
         trailing: IconButton(
           icon: Icon(Icons.delete),
           onPressed: () {
-            context.read<Cart>().removeItemsFromCart(widget.shoe);
+            Provider.of<Cart>(context, listen: false).removeItemsFromCart(widget.shoe);
+            // context.read<Cart>().removeItemsFromCart(widget.shoe);
           },
         ),
       ),
