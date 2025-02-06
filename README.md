@@ -9,13 +9,13 @@ it has a cart where the user can see the products added to the cart. Also, the u
 
 ## Screenshots
 
-![electromart-landing-page](https://github.com/user-attachments/assets/5e959f36-0c69-4f7b-8d42-7f239050e977)
+![electromart-landing-page](https://github.com/user-attachments/assets/a1c12fe5-33cb-4416-96c1-47b80f896e1b)
 
-![electromart-homepage](https://github.com/user-attachments/assets/3b3db7fd-0f19-4b90-acf1-818a3e03cc17)
+![electromart-homepage](https://github.com/user-attachments/assets/d4c958bf-2b4f-4bda-9bcb-6ba6cc8f9e04)
 
-![electromart-dialogbox](https://github.com/user-attachments/assets/460e054e-34af-448d-91c7-22fa958fe945)
+![electromart-dialogbox](https://github.com/user-attachments/assets/9cf09a64-f3e7-45b4-be15-f2f462a40516)
 
-2![electromart-cart-page](https://github.com/user-attachments/assets/4932cce4-2025-4aea-b02e-3a5b5947a9f1)
+![electromart-cart-page](https://github.com/user-attachments/assets/85f0d5c9-11e6-4e91-bef9-90370fda4c23)
 
 ## Video Recording of the app Functionality.
 
