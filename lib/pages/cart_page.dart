@@ -16,7 +16,7 @@ class _CartPageState extends State<CartPage> {
   @override
   Widget build(BuildContext context) {
     return Consumer<Cart>(
-      builder: (context, value, child) => Padding(
+      builder: (context, cart, child) => Padding(
         padding: const EdgeInsets.symmetric(horizontal: 25.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -34,10 +34,10 @@ class _CartPageState extends State<CartPage> {
 
             Expanded(
                 child: ListView.builder(
-                    itemCount: value.getUserCart().length,
+                    itemCount: cart.userCart.length,
                     itemBuilder: (context, index) {
                       //get individual shoe
-                      Shoe individualShoe = value.getUserCart()[index];
+                      final individualShoe = cart.userCart[index];
 
                       //return the cart item
                       return CartItem(shoe: individualShoe);

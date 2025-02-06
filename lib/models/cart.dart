@@ -32,7 +32,9 @@ class Cart extends ChangeNotifier {
     ),
   ];
   //List of items in user cart
-  List<Shoe> usercart = [];
+  final List<Shoe> userCart = [];
+
+  // List<Shoe> get userCart => [..._userCart];
 
   //get list of shoes for sale
   List<Shoe> getShoeList() {
@@ -41,18 +43,18 @@ class Cart extends ChangeNotifier {
 
   //get cart
   List<Shoe> getUserCart() {
-    return usercart;
+    return userCart;
   }
 
   //add Item to cart
   void addItemToCart(Shoe shoe) {
-    usercart.add(shoe);
+    userCart.add(shoe);
     notifyListeners();
   }
 
   //remove items from cart
   void removeItemsFromCart(Shoe shoe) {
-    usercart.remove(shoe);
+    userCart.remove(shoe);
     notifyListeners();
   }
 }

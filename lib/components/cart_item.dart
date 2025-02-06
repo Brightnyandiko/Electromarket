@@ -18,9 +18,11 @@ class CartItem extends StatefulWidget {
 class _CartItemState extends State<CartItem> {
 
   //delete items from cart
-  void removeItemFromCart() {
-    Provider.of<Cart>(context, listen: false).removeItemsFromCart(widget.shoe);
-  }
+  // void removeItemFromCart(Cart cart) {
+  //   print("before removal: ${cart.userCart.length}");
+  //   Provider.of<Cart>(context, listen: false).removeItemsFromCart(widget.shoe);
+  //   print("After removal: ${cart.userCart.length}");
+  // }
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -35,7 +37,9 @@ class _CartItemState extends State<CartItem> {
         subtitle: Text(widget.shoe.price),
         trailing: IconButton(
           icon: Icon(Icons.delete),
-          onPressed: () => removeItemFromCart,
+          onPressed: () {
+            context.read<Cart>().removeItemsFromCart(widget.shoe);
+          },
         ),
       ),
     );
